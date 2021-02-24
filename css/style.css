@@ -1,0 +1,365 @@
+/*---------------------header--------------------------*/
+*{
+    box-sizing:border-box;   
+    /*color:#666666;*/
+    font-size:15px;
+    font-family:'Poppins', sans-serif;
+    line-height: 1.80857;
+    
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color:#fff;
+    margin: 0
+}
+ul{
+    list-style-type: none;
+    padding:0;
+}
+
+/*---------------------header--------------------------*/
+        /*----------------nav-------------------*/
+.navbar{
+    padding-top:1rem !important;
+    padding-bottom:1rem !important;
+    position:;
+}
+.navbar-brand{
+    margin-left:1.5rem;
+}
+a.navbar-brand span:first-child{
+    color:#007bff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a.navbar-brand span{
+    color:#FFF;
+    font-size: 22px;
+    
+    text-transform: uppercase;
+}
+.navbar .sound_toggle{
+    margin-right: 1.5rem !important;
+    background:none;
+    padding:10px;
+}
+.navbar .sound_toggle .first_line{
+    color:#fff;
+    width:10px;
+    padding:2px;
+    margin-top:0px
+    
+}
+.navbar .sound_toggle .second_line{
+    color:#fff;
+    width:24px;
+    padding:2px;
+    margin-top:1px
+    
+}
+.navbar .sound_toggle .third_line{
+    color:#fff;
+    width:30px;
+    padding:2px;
+    margin-top:1px
+    
+}
+.navbar .sound_toggle .fourth_line{
+    color:#fff;
+    width:24px;
+    padding:2px;
+    margin-top:1px
+    
+}
+.navbar .sound_toggle .fifth_line{
+    color:#fff;
+    width:10px;
+    padding:2px;
+    margin-top:1px
+}
+.navbar .sound_toggle:hover .first_line{
+    color:#fff;
+    width:30px;
+    padding:2px;
+    animation:ease-out 1s;
+    transform: 1s ease-out; 
+    
+}
+.navbar .nav-link{
+    font-size: 18px;
+    
+}
+.navbar .nav-link:hover{
+    color:#007bff !important; 
+}
+.navbar-nav{
+    padding-left:23px !important
+}
+nav{
+    background-color: #37474f
+    ;/*#263238*/
+}
+.nav_container{
+    background-color: #37474f;
+}
+.logo{
+    width:60px;
+    color:#fff;
+    margin: 20px 30px;
+    display:inline-block;
+}
+.main_menu{
+    float:right;
+    border:1.5px solid #fff;
+    background: none;
+    margin:20px 30px;
+    padding-bottom:7px
+}
+button span{
+    display:block;
+    height: 1px;
+    width:25px;
+    margin-top:7px;
+    background-color:#fff 
+}
+.menu_box{
+    width:300px;
+    float:right;
+    background-color: #252841;
+}
+.menu_box ul{
+    list-style-type: none;
+    padding:0;
+    margin:10px;
+}
+.cover_page{
+    background-color:#9fa8da
+}
+        /*----------------cover-------------------*/
+.carousel-inner .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:2;
+    background-color:#0000009c; 
+}
+.carousel-indicators li{
+    height:12px !important;
+    width:12px !important;
+    border:0 !important;
+    border-radius:100px !important;
+}
+/*---------------------our_work--------------------------*/
+.our_work{
+    margin:50px 0;
+    overflow: hidden;
+}
+.our_work .work_header{
+    margin:0 20px;
+}
+.our_work .work_header h1{
+    margin-top:10px;
+    font-size:30px;
+    color:#455a64
+}
+.our_work .work_header span{
+    display:inline-block;
+    height:2px;
+    width:90px;
+    background-color:#ddd
+}
+.our_work .intro_work{
+    box-shadow: 2px 2xp 8px #000;
+}
+
+.our_work h2{
+   text-align: center; 
+    /*color:#455a64;#1a237e*/
+    color:#686868;
+}
+.our_work p{
+    color:#303f9f;
+    overflow:hidden;
+    
+}
+.our_work .embaded_video{
+    margin:auto;
+}
+.our_work .embaded_video{
+    margin:20px 0;
+}
+iframe{
+    margin:20px 0;
+}
+.part_one ,.part_three{
+    margin:20px;
+}
+.part_one{
+    margin-bottom:100px
+}
+.part_tow{
+    margin-top:100px;
+}
+.the_middle{
+    margin:0 30px;
+    overflow:hidden;
+}
+.our_work .contact_us{
+    /*width:45%;*/
+    text-align:center;
+    margin:auto;
+   /* position:relative;
+    top:150px;
+    float:left;
+    clear:both;*/
+}
+.contact_us button{
+    border:1.5px solid #000;
+    border-radius:10x;
+    background: none;
+    margin:20px 30px;
+    padding:15px 30px;
+}
+
+/*---------------------our_feilds--------------------------*/
+.our_feilds{
+    padding:30px 0 50px 30px;
+    overflow: hidden;
+}
+.main_header{
+    margin:40px 5px ;
+}
+.our_feilds .main_header h1{
+    margin-top:10px;
+    font-size:30px;
+    color:#455a64
+}
+.main_header span{
+    display:inline-block;
+    height:2px;
+    width:90px;
+    background-color:#ddd
+}
+
+}
+.first_feild,.second_feild,.third_feild, .forth_feild{
+    /*donot working*/
+    position: relative;
+    color:#fff;
+    padding: 10px !important
+}
+.our_feilds .insid_feild{
+    display: inline-block;
+    position:absolute;
+    /*height:100%;*/
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+}
+.our_feilds .first_feild:hover,.second_feild:hover,.third_feild:hover, .forth_feild:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+.our_feilds a img{
+    height:170px;
+    width:100%;
+}
+/*---------------------our_clients--------------------------*/
+.our_clients{
+    position:relative;
+    
+    padding:30px;
+    overflow: hidden;
+}
+.our_clients a img{
+    width:100%
+}
+.our_clients .first_client,.second_client,.third_client{
+    width:20%;
+    float:left;
+}
+/*---------------------testimonals--------------------------*/
+.testimonals{
+    overflow: hidden;
+    
+}
+.profile{
+    padding:40px 0;
+    justify-content: center;
+    align-content: center;
+    background-color: #e0e0e0
+}
+.testimonals .profile img{
+    width:150px;
+    padding:0 20px;
+    position:absolute;
+    /*height:100%;*/
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 50%
+    
+}
+.testimonals .profile h3{
+    font-size:18px
+}
+.testimonals .word p{
+}
+
+/*---------------------request_praiceing--------------------------*/
+.request_priceing{
+    width:100%;
+    overflow: hidden;
+}
+.request_priceing .name_request{
+    width:100%;
+    overflow: hidden;
+}
+.request_priceing .name_request .first_name{
+    width:30%;
+    margin:2%;
+    padding:20px;
+    float:left;
+    background-color: #b0bec5;
+}
+.request_priceing .name_request .last_name{
+    width:30%;
+    margin:2%;
+    padding:20px;
+    float:left;
+    background-color: #b0bec5;
+}
+
+.request_priceing .contact_request{
+    width:100%;
+    overflow: hidden;
+}
+.request_priceing .contact_request .email{
+    width:30%;
+    margin:2%;
+    padding:20px;
+    float:left;
+    background-color: #b0bec5;
+}
+.request_priceing .contact_request .phone{
+    width:30%;
+    margin:2%;
+    padding:20px;
+    float:left;
+    background-color: #b0bec5;
+}
+.request_priceing .detail_request{
+    width:70%;
+    margin:2%;
+    padding:50px;
+    background-color: #b0bec5;
+}
+/*---------------------footer--------------------------*/
+footer{
+    height: 300px;
+    background-color: #9e9e9e;
+}
